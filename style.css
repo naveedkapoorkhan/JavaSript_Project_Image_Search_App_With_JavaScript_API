@@ -25,12 +25,15 @@ form{
     width:60%;
     max-width:400px;
     padding:10px 20px;
-   // border:none;
+  // border:none;
    box-shadow: 0 0 6px rgba(0,0,0,0.2)
-  // border-radius:50px;
+   border-radius:15px;
    font-size:18px;
    color:#333;
 
+}
+#search-input:hover{
+    background-color:rgba(40,120,130,0.1);
 }
 #search-button{
 padding:10px 20px;
@@ -42,4 +45,44 @@ box-shadow:0 0 6px rgba(0,0,0,0.2);
 cursor:pointer;
 margin-left: 10px;
 }
+#search-button:hover{
+    background-color:tomato;
+}
 
+.search-results{
+    display:flex;
+    justify-content:space-around;
+
+    flex-wrap:wrap;
+    max-width:1200px;
+    margin:0 auto;
+
+}
+.search-result{
+    margin-bottom:60px;
+    width:30%;
+    height:100%;
+    border-radius:5px;
+    box-shadow:0,0,6px rgba(0,0,0,0.2);
+    0verflow:hidden;
+
+
+}
+.search-result img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:opacity ease-in-out;
+}
+.search-result img:hover{
+    opacity:0.8;
+}
+.search-result a{
+    font-size:20px;
+    text-decoration:none;
+    color:#333;
+    display:block;
+    padding:10px;
+    text-transform:capitalize;
+
+}
