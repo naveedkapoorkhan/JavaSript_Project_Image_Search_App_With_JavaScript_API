@@ -86,3 +86,18 @@ margin-left: 10px;
     text-transform:capitalize;
 
 }
+#show-more-button{
+    background-color:#00ffff;
+    color:#fff;
+    font-size:18px;
+    border:none;
+    padding:10px 20px;
+    text-align:center;
+    display:block;
+    margin:30px auto;
+    border-radius:5px;
+    cursor:pointer;
+    display:none;
+    
+
+}
