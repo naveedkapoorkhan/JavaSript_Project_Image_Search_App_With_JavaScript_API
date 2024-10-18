@@ -63,7 +63,7 @@ margin-left: 10px;
     width:30%;
     height:100%;
     border-radius:5px;
-    box-shadow:0,0,6px rgba(0,0,0,0.2);
+    box-shadow:0 0 6px rgba(0,0,0,0.2);
     0verflow:hidden;
 
 
@@ -73,6 +73,7 @@ margin-left: 10px;
     height:100%;
     object-fit:cover;
     transition:opacity ease-in-out;
+    border-radius:5px;
 }
 .search-result img:hover{
     opacity:0.8;
@@ -116,6 +117,4 @@ margin-left: 10px;
     .search-result{
     width:100%;
     }
-    
-
-}
+  }
