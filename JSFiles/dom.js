@@ -20,7 +20,10 @@ export function displayResults(results) {
         const imageLink = document.createElement("a");
         imageLink.href = result.links.html;
         imageLink.target = "_blank";
-        imageLink.textContent = result.alt_description;
+        const altText = result.alt_description || "No description";  // Default text if alt_description is empty
+        imageLink.textContent = altText.length > 30 ? altText.substring(0, 30) + "..." : altText;
+
+        //imageLink.textContent = result.alt_description;
 
         imageWrapper.appendChild(img);
         imageWrapper.appendChild(imageLink);
