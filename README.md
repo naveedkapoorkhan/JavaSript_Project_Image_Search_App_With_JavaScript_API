@@ -19,7 +19,7 @@ The **Image Search App** allows users to search for images using the [Unsplash A
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/Image-Search-App.git
+[    git clone https://github.com/yourusername/Image-Search-App.git](https://github.com/naveedkapoorkhan/JavaSript_Project_Image_Search_App_With_JavaScript_API.git)
     ```
 2. Navigate into the project directory:
     ```bash
